@@ -682,6 +682,9 @@ h6,
     margin-bottom: 7rem;
   }
 }
+#wowslider-21 section.mbr-wowslider-container.mbr-after-navbar {
+  padding-top: 6.5rem!important;
+}
 #header3-8 .mbr-section-title,
 #header3-8 .mbr-section-subtitle {
   text-align: center;
@@ -989,6 +992,12 @@ h6,
   color: #000000;
   font-size: 30px;
 }
+#form2-2t .mbr-section-title {
+  color: #fff;
+}
+#form2-2t .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #extHeader12-p H3 {
   font-size: 20px;
   text-align: left;
@@ -1250,13 +1259,6 @@ h6,
 #ext_menu-2l .link[aria-expanded="true"],
 #ext_menu-2l .dropdown-item[aria-expanded="true"] {
   color: #0180b3!important;
-}
-#extHeader12-2h H3 {
-  font-size: 20px;
-  text-align: left;
-}
-#extHeader12-2h P {
-  text-align: left;
 }
 #ext_menu-2i .hide-buttons .nav-btn {
   display: none !important;
