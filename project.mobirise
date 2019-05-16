@@ -1,12 +1,12 @@
 {
   "settings": {
-    "name": "mbr3.subsite.okad.com.br",
-    "currentPage": "page5.html",
+    "name": "negocios",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#0180b3",
+        "primaryColor": "#4155d7",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.7.2",
-    "uniqCompNum": 105,
+    "uniqCompNum": 125,
     "versionPublish": "4.9.5",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -47,7 +47,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home 1",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "<script>\nfunction loadFacebookIframe(){\n\tvar largura = Math.trunc($('.insta-profile').width());\n\tvar altura = 120;\n\tvar template = `\n\t\t\t<iframe \n\t\t\t\t\tsrc=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fclinicacedae&tabs&width=${largura}&height=${altura}&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=534320586705736\" \n\t\t\t\t\twidth=\"${largura}\" height=\"${altura}\" \n\t\t\t\t\tstyle=\"border:none;overflow:hidden\" \n\t\t\t\t\tscrolling=\"no\" \n\t\t\t\t\tframeborder=\"0\" \n\t\t\t\t\tallowTransparency=\"true\" \n\t\t\t\t\tallow=\"encrypted-media\"></iframe>`;\n\t$('.fb-profile').html(template);\n};\n$(document).ready(loadFacebookIframe);\n$(window).on('resize', loadFacebookIframe);\n</script>\n<script src=\"http://127.0.0.1/tests/subsite.js\"></script>",
@@ -338,7 +338,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0180b3!important"
+              "color": "#4155d7!important"
             }
           },
           "logo": {
@@ -353,11 +353,11 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_customCSS": "@navbarBackgroundImage: 'https://www.okad.com.br/images/negocios-navbg_img/clinica-cedae.jpeg';\n@navbarBackgroundImageOpacity: 0.8;\nnav.navbar:not(.navbar-short){\n    background-color: rgba(255, 255, 255, .4) !important;\n}\nnav.navbar{\n    & when(@navbarBackgroundImage) {\n        z-index: 91;\n    }\n    &:before when(@navbarBackgroundImage) {\n        content: \"\";\n        position: absolute;\n        top: 0; \n        left: 0;\n        width: 100%; \n        height: 100%;  \n        opacity: @navbarBackgroundImageOpacity; \n        z-index: -1;\n        background: url(\"@navbarBackgroundImage\");\n        background-size: cover;\n    }\n    .navbar-brand{\n        img{\n            height: 4rem;\n        }\n    }\n    .navbar-short {\n        //box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.46);\n    }\n    ul.nav-dropdown:not(.nav-dropdown-sm) {\n        border: 1px solid @primaryColor;\n        border-radius: 2rem;\n        li.nav-item{\n            &:first-child{\n                padding-left: 0.5rem;\n            }\n            &:last-child{\n                padding-right: 0.5rem;\n            }\n            &:not(:last-child):after {\n                display: inline-block;\n                content: \"\\200B\";\n                border-right: 0.1rem solid @primaryColor;\n            }\n            .nav-link.link {\n                color: @primaryColor !important;\n                padding: 0;\n                margin: 0.5rem;\n                display: inline-block;\n            }\n            .link{\n                position: relative;\n                font-size: .84rem;\n                margin: 1.4em;\n                &:before {\n                    content: \"\";\n                    position: absolute;\n                    width: 100%;\n                    height: 2px;\n                    bottom: 0;\n                    left: 0;\n                    background-color: @primaryColor;\n                    visibility: hidden;\n                    -webkit-transform: scaleX(0);\n                    transform: scaleX(0);\n                    -webkit-transition: all .3s ease-in-out 0s;\n                    transition: all .3s ease-in-out 0s\n                }\n                &:hover {\n                    color: @primaryColor;\n                }\n                &:hover:before {\n                    visibility: visible;\n                    -webkit-transform: scaleX(1);\n                    transform: scaleX(1);\n                }\n            }\n        }\n    }\n}\n\n// Contatos\n.soc-div {\n    text-align: right;\n    ul{\n        margin: 0 0 0.3rem 0;\n        padding: 0;\n        li{\n            display:inline-block;\n            &:not(:last-child){\n                margin-right: 1rem;\n            }\n            a {\n                color: @primaryColor;\n                text-decoration: none;\n                &:hover{\n                    color: darken(@primaryColor, 10%);\n                }\n            }\n        }\n    }\n}"
@@ -399,7 +399,7 @@
           "_tags": [
             "Layout"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ENTRE EM CONTATO&nbsp;</a> ",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"javascript://\" data-toolbar=\"-mbrBtnMove\">ENTRE EM CONTATO&nbsp;</a> ",
           "_name": "msg-box3",
           "_anchor": "msg-box3-4"
         },
@@ -549,79 +549,120 @@
         }
       ]
     },
-    "publicacao.html": {
+    "blog-post.html": {
       "settings": {
         "meta_descr": "Web Maker Description",
-        "title": "Publicacao",
-        "order": 2,
+        "title": "Blog - Post",
+        "order": 5,
         "header_custom": ""
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "inverse": true,
-            "imageSize": "73",
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extMsg-box1_bg.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgText": "",
-            "bgTextStyle": "Montserrat",
-            "bgTextColor": "#efefef",
-            "bgTextSize": "200",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.7
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/86011408-960x960.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "ANIMATED TEXT BACKGROUND",
-          "text": "Full-screen intro with animated text background. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ducimus reiciendis quaerat architecto. Molestias enim sequi, et alias ipsam voluptate!",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-communication-quick-contacts-dialer mbr-iconfont mbr-iconfont-btn\"></span>CONTATO</a>",
-          "bgTextP": "ANIMATED TEXT BACKGROUND",
-          "alias": "mobirise3-blocks/components",
+          "title": "Como Escalar Negócios: Os 5 Estágios da Evolução Natural",
+          "text": "<p>Publicado em: 26 de dezembro de 2018</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"javascript://\">SEE ALL TEMPLATES</a>",
           "_tags": [
-            "Extesões"
+            "Layout"
           ],
-          "_name": "extHeader12",
-          "_anchor": "extHeader12-p",
-          "_styles": {
-            "H3": {
-              "font-size": "20px",
-              "text-align": "left"
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "SUBSCRIBE FORM",
+          "subtitle": "Subscribe to our Newsletter",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Cadastrar email</a>",
+          "form": {
+            "action": "ennio21@gmail.com",
+            "alerts": {
+              "success": "Yeah! Seja super bem-vind@! Dá uma conferida no seu email ;)"
             },
-            "P": {
-              "text-align": "left"
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Qual seu endereço de email?"
+              }
             }
-          }
+          },
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-2p",
+          "_customHTML": "<section class=\"mbr-section form2 newsletter container\" data-rv-view=\"204\">\n        \n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h5 class=\"mbr-section-title mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"21\">Entre para nossa lista e receba conteúdos exclusivos</h5>\n                    <!--<small class=\"mbr-section-subtitle mbr-editable-content\">Subscribe to our Newsletter</small>-->\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\">Yeah! Seja super bem-vind@! Dá uma conferida no seu email ;)</div>\n                    </div>\n                    <form class=\"mbr-form\" action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"SUBSCRIBE FORM\">\n                        <input type=\"hidden\" value=\"1VL50S6pVsNm+4GcmewPO2j98kyEk3ZWQxcPQUqnWxbVlFg7kEpdwqlLGa7Inf2cyYpv3Gfto58C1aepf+I8ufans8jhy9PtHFrtd0L6Lc1VicfyQVQ5YTP+3eLhm+4B\" data-form-email=\"true\">\n                        <div class=\"mbr-subscribe mbr-subscribe-light input-group\"><input type=\"name\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Qual seu nome?\">\n                            <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Qual seu endereço de email?\" id=\"form2-2p-email\">\n                            <span class=\"input-group-btn\"><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"22\">CADASTRAR</button></span>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(undefined);\nsection.newsletter{\n    background-color: white;\n    padding-top: 40px;\n    padding-bottom: 40px;\n    margin-top: -80px;\n    box-shadow: 0 0 20px rgba(62,70,79,.22);\n    z-index: 1;\n}\n.mbr-section-title {\n  color: #000;\n}\n.mbr-section-subtitle {\n  color: #a0a0a0;\n}\n@media (min-width: 400px) {\n    .form-control {\n        width: 50%;\n        top: 0.55rem;\n        min-height: 2.7rem;\n        &:nth-child(2) {\n            border-left: 1px solid rgba(160, 160, 160, 0.55);\n        }\n    }\n}\n@media (max-width: 400px) {\n    input {\n        display: block;\n        width: 100% !important;\n        border: none;\n        border-radius: 0px;\n        &:first-child {\n            border-bottom: 1px solid rgba(160, 160, 160, 0.5);\n            border-left: none;\n        }\n    }\n}\n\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem: in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem: in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem:</p>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2o"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2s"
         },
         {
           "_inherit": "menu",
@@ -702,13 +743,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-g"
+          "_anchor": "ext_menu-2l"
         },
         {
           "_params": {
@@ -728,18 +769,863 @@
             "Layout"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-h"
+          "_anchor": "footer1-2m"
         }
       ]
     },
-    "page2.html": {
+    "blog-posts.html": {
       "settings": {
-        "title": "Categorias",
+        "meta_descr": "Web Maker Description",
+        "title": "Blog - Posts",
+        "order": 4,
+        "header_custom": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INÍCIO 1</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery2-7\">PUBLICAÇÕES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-4\">QUEM SOMOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extForm4-3\">CONTATO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Layout"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#0180b3!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-330x118.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2i"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 Cliente<br>Desenvolvido por <a href=\"https://enniosousa.com.br\" target=\"_blank\" class=\"text-white\">Ennio Sousa</a> para a <a href=\"https://www.okad.com.br\" target=\"_blank\" class=\"text-white\">Ok! Ad</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showIcons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/apple-imac-ipad-workplace.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/coffee-apple-iphone-desk.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/person-apple-laptop-notebook.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/macbook-apple-imac-computer.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/woman-typing-writing-windows.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@-blocks/components/_images/coffee-apple-iphone-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title": "MOBIRISE FEATURES",
+          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "media1_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures7",
+          "_anchor": "extFeatures7-2t"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showIcons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face5.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face1.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face6.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face2.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face3.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@-blocks/components/_images/face4.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title": "OUR TEAM",
+          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
+          "title1": "William Smith",
+          "subtitle1": "Programmer",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Emma Jones",
+          "subtitle2": "SEO",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Michael Taylor",
+          "subtitle3": "Manager",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Emily Brown",
+          "subtitle4": "Reception",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "James Evans",
+          "subtitle5": "Sales",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Daniel Walker",
+          "subtitle6": "Founder",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "media1_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "javascript://",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures9",
+          "_anchor": "extFeatures9-2u"
+        }
+      ]
+    },
+    "publicacao-categorias.html": {
+      "settings": {
+        "title": "Publicacação — Categorias",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -932,7 +1818,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000f71!important"
+              "color": "#0180b3!important"
             }
           },
           "logo": {
@@ -947,11 +1833,11 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-x"
         },
@@ -977,120 +1863,79 @@
         }
       ]
     },
-    "blog-post.html": {
+    "publicacao-publicacao.html": {
       "settings": {
         "meta_descr": "Web Maker Description",
-        "title": "Blog - Post",
-        "order": 4,
+        "title": "Publicacação —  Publicacação",
+        "order": 3,
         "header_custom": ""
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".lead P": {
-              "text-align": "left"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showButtons": true,
+            "showArrow": false,
+            "inverse": true,
+            "imageSize": "73",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extMsg-box1_bg.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgText": "",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#efefef",
+            "bgTextSize": "200",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
           },
-          "title": "Como Escalar Negócios: Os 5 Estágios da Evolução Natural",
-          "text": "<p>Publicado em: 26 de dezembro de 2018</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_tags": [
-            "Layout"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-2r"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "paddingTop": "3",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "SUBSCRIBE FORM",
-          "subtitle": "Subscribe to our Newsletter",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Cadastrar email</a>",
-          "form": {
-            "action": "ennio21@gmail.com",
-            "alerts": {
-              "success": "Yeah! Seja super bem-vind@! Dá uma conferida no seu email ;)"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/86011408-960x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Qual seu endereço de email?"
-              }
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
+          "title": "ANIMATED TEXT BACKGROUND",
+          "text": "Full-screen intro with animated text background. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ducimus reiciendis quaerat architecto. Molestias enim sequi, et alias ipsam voluptate!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-communication-quick-contacts-dialer mbr-iconfont mbr-iconfont-btn\"></span>CONTATO</a>",
+          "bgTextP": "ANIMATED TEXT BACKGROUND",
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Layout"
+            "Extesões"
           ],
-          "_name": "form2",
-          "_anchor": "form2-2p",
-          "_customHTML": "<section class=\"mbr-section form2 newsletter container\" data-rv-view=\"204\">\n        \n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h5 class=\"mbr-section-title mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"21\">Entre para nossa lista e receba conteúdos exclusivos</h5>\n                    <!--<small class=\"mbr-section-subtitle mbr-editable-content\">Subscribe to our Newsletter</small>-->\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\">Yeah! Seja super bem-vind@! Dá uma conferida no seu email ;)</div>\n                    </div>\n                    <form class=\"mbr-form\" action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"SUBSCRIBE FORM\">\n                        <input type=\"hidden\" value=\"1VL50S6pVsNm+4GcmewPO2j98kyEk3ZWQxcPQUqnWxbVlFg7kEpdwqlLGa7Inf2cyYpv3Gfto58C1aepf+I8ufans8jhy9PtHFrtd0L6Lc1VicfyQVQ5YTP+3eLhm+4B\" data-form-email=\"true\">\n                        <div class=\"mbr-subscribe mbr-subscribe-light input-group\"><input type=\"name\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Qual seu nome?\">\n                            <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Qual seu endereço de email?\" id=\"form2-2p-email\">\n                            <span class=\"input-group-btn\"><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"22\">CADASTRAR</button></span>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "@import url(undefined);\nsection.newsletter{\n    background-color: white;\n    padding-top: 40px;\n    padding-bottom: 40px;\n    margin-top: -80px;\n    box-shadow: 0 0 20px rgba(62,70,79,.22);\n    z-index: 1;\n}\n.mbr-section-title {\n  color: #000;\n}\n.mbr-section-subtitle {\n  color: #a0a0a0;\n}\n@media (min-width: 400px) {\n    .form-control {\n        width: 50%;\n        top: 0.55rem;\n        min-height: 2.7rem;\n        &:nth-child(2) {\n            border-left: 1px solid rgba(160, 160, 160, 0.55);\n        }\n    }\n}\n@media (max-width: 400px) {\n    input {\n        display: block;\n        width: 100% !important;\n        border: none;\n        border-radius: 0px;\n        &:first-child {\n            border-bottom: 1px solid rgba(160, 160, 160, 0.5);\n            border-left: none;\n        }\n    }\n}\n\n",
-          "_customTemplate": true
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem: in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem: in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n</p><p>A origem do homem por muito tempo foi tida como misteriosa…\n</p><p>\n</p><p>A evolução biológica das espécies não foi validada até uma importante publicação em 24 de novembro de 1859.\n</p><p>\n</p><p>Essa publicação era: A Origem das Espécies por Charles Darwin.\n</p><p>\n</p><p>A teoria da seleção natural provocou uma verdadeira revolução no estudo científico ao compreender melhor a evolução das espécies, inclusive, o homem.\n</p><p>\n</p><p>Agora… eu aposto que você já viu essa imagem:</p>",
-          "_tags": [
-            "Layout"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2o"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
-          "_tags": [
-            "Layout"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2s"
+          "_name": "extHeader12",
+          "_anchor": "extHeader12-p",
+          "_styles": {
+            "H3": {
+              "font-size": "20px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_inherit": "menu",
@@ -1171,13 +2016,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-2l"
+          "_anchor": "ext_menu-g"
         },
         {
           "_params": {
@@ -1197,15 +2042,15 @@
             "Layout"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-2m"
+          "_anchor": "footer1-h"
         }
       ]
     },
-    "blog-posts.html": {
+    "galeria-albuns.html": {
       "settings": {
         "meta_descr": "Web Maker Description",
-        "title": "Blog - Posts",
-        "order": 3,
+        "title": "Galeria - Álbuns",
+        "order": 6,
         "header_custom": ""
       },
       "components": [
@@ -1288,11 +2133,11 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-2i"
         },
@@ -1317,22 +2162,40 @@
           "_anchor": "footer1-2j"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
+            "showMeta": false,
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "title": "Galerias",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-30"
+        },
+        {
+          "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
-            "ShowTexts": true,
-            "showIcons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": 4,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1343,7 +2206,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apple-imac-ipad-workplace.jpg",
+              "src": "@PROJECT_PATH@/assets/images/table.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1351,7 +2214,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/coffee-apple-iphone-desk.jpg",
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1359,15 +2222,19 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/person-apple-laptop-notebook.jpg",
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "page5.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/macbook-apple-imac-computer.jpg",
+              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1375,7 +2242,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/woman-typing-writing-windows.jpg",
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1383,25 +2250,23 @@
           },
           "media6": {
             "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/coffee-apple-iphone-laptop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
             }
           },
-          "title": "MOBIRISE FEATURES",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
           "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
+          "subtitle1": "Publicado em: 00/00/0000",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
+          "subtitle2": "Publicado em: 00/00/0000",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "subtitle3": "Publicado em: 00/00/0000",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
+          "subtitle4": "Publicado em: 00/00/0000",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
           "title5": "Trendy Website Blocks",
           "subtitle5": "Choose from the large selection of blocks",
@@ -1409,294 +2274,33 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>VER A GALERIA</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>VER A GALERIA</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>VER A GALERIA</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\"></span>VER A GALERIA</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
-            "Extesões"
+            "Layout"
           ],
-          "_name": "extFeatures7",
-          "_anchor": "extFeatures7-2t"
+          "_name": "features3",
+          "_anchor": "features3-2z"
         },
         {
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
-            "ShowTexts": true,
-            "showIcons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": 4,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1707,7 +2311,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face5.png",
+              "src": "@PROJECT_PATH@/assets/images/table.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1715,7 +2319,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face1.png",
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1723,7 +2327,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face6.png",
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1731,7 +2335,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face2.png",
+              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1739,7 +2343,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/face3.png",
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -1747,310 +2351,49 @@
           },
           "media6": {
             "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face4.png",
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
             }
           },
-          "title": "OUR TEAM",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "title1": "William Smith",
-          "subtitle1": "Programmer",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Publicado em: 00/00/0000",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Emma Jones",
-          "subtitle2": "SEO",
+          "title2": "Responsive",
+          "subtitle2": "Publicado em: 00/00/0000",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Michael Taylor",
-          "subtitle3": "Manager",
+          "title3": "Web Fonts",
+          "subtitle3": "Publicado em: 00/00/0000",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Emily Brown",
-          "subtitle4": "Reception",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Publicado em: 00/00/0000",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "James Evans",
-          "subtitle5": "Sales",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Daniel Walker",
-          "subtitle6": "Founder",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">VER A GALERIA</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">VER A GALERIA</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">VER A GALERIA</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">VER A GALERIA</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
-            "Extesões"
+            "Layout"
           ],
-          "_name": "extFeatures9",
-          "_anchor": "extFeatures9-2u"
+          "_name": "features3",
+          "_anchor": "features3-33"
         }
       ]
     },
-    "page5.html": {
+    "galeria-album.html": {
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Galeria - Album",
-        "order": 6,
+        "order": 7,
         "header_custom": ""
       },
       "components": [
@@ -2080,7 +2423,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "showBullets": true,
+            "showBullets": false,
             "fullWidth": true,
             "spacing": "1",
             "paddingTop": "0",
@@ -2100,7 +2443,7 @@
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -2112,7 +2455,7 @@
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Creative",
@@ -2269,11 +2612,11 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-2l"
         },
@@ -2299,14 +2642,183 @@
         }
       ]
     },
-    "page6.html": {
+    "servicos.html": {
       "settings": {
-        "meta_descr": "Web Maker Description",
-        "title": "Galeria - Álbuns",
-        "order": 5,
-        "header_custom": ""
+        "title": "Serviços",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "7",
+            "paddingBottom": "1",
+            "bgColor": "#efefef"
+          },
+          "title": "Serviços",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-38"
+        },
+        {
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "undefined !important"
+            },
+            ".wraper": {
+              "border-color": "undefined !important"
+            },
+            ".card-number": {
+              "color": "@primaryColor"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extFeatures4_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.6,
+            "numbersColor": "@primaryColor"
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "<p>Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.</p>",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "Ser feliz com um sorriso perfeito",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar deve se vacinar.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">AGENDAR HORÁRIO</a>",
+          "number1": "<div class=\"card-img iconbox\"><span class=\"li_lab mbr-iconfont\"></span></div>",
+          "number2": "<div class=\"card-img iconbox\"><span class=\"fa fa-medkit mbr-iconfont\"></span></div>",
+          "number3": "<div class=\"card-img iconbox\"><span class=\"imind-pulse mbr-iconfont\"></span></div>",
+          "number4": "<div class=\"card-img iconbox\"><span class=\"icon54-v1-virus-1 mbr-iconfont\"></span></div>",
+          "media1": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x931.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x927.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-1400x1010.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures12",
+          "_anchor": "extFeatures12-3e",
+          "_customCSS": ".card-img.iconbox{\n    background-color: @primaryColor;\n    border: contrast(@primaryColor) 10px solid;\n    border-radius: 500px;\n    padding: 1rem;\n    width: 110px;\n    height: 110px;\n    >span{\n        color: contrast(@primaryColor);\n        display: block;\n        text-align: center;\n        font-size: 50px;\n        text-decoration: none;\n    }\n}\n.card-text {\n    text-align: justify;\n}\n.card-btn {\n    text-align: center;\n    margin-top: -50px;\n    margin-bottom: 20px;\n}"
+        },
         {
           "_inherit": "menu",
           "_params": {
@@ -2371,7 +2883,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0180b3!important"
+              "color": "#4155d7!important"
             }
           },
           "logo": {
@@ -2386,13 +2898,934 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "javascript://",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"javascript://\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VAI E VEM</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-2i"
+          "_anchor": "ext_menu-x"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x931.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x927.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-1400x1010.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-34"
+        },
+        {
+          "_inherit": "features3",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "name": "global",
+              "link": "javascript://",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "name": "global",
+              "link": "javascript://",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "_tags": [
+            "Layout"
+          ],
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "_name": "features6",
+          "_anchor": "features6-35",
+          "_customCSS": ".mbr-iconfont.mbr-iconfont-features3 {\n    color: @primaryColor;\n}"
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#f2f2f2",
+              "border-color": "#f2f2f2"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "iconsBgColor": "#f2f2f2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "javascript://",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "javascript://",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-36",
+          "_customCSS": ""
+        },
+        {
+          "_inherit": "features1",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "javascript://",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "javascript://",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "_tags": [
+            "Layout"
+          ],
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "columnsColor": "#2e2e2e",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "_name": "features2",
+          "_anchor": "features2-37",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_customCSS": ".card-text {\n    text-align: justify;\n}\n.mbr-iconfont.mbr-iconfont-features2, .mbr-iconfont.mbr-iconfont-features3 {\n    color: @primaryColor;\n}"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extfeatures3-bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.8
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#c39f76"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#c39f76"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": "",
+              "color": "#c39f76"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#c39f76"
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures3",
+          "_anchor": "extFeatures3-39",
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "@primaryColor !important"
+            },
+            ".wraper": {
+              "border-color": "@primaryColor !important"
+            },
+            "P": {
+              "color": "#000000"
+            },
+            ".card-subtitle": {
+              "color": "#000000"
+            },
+            "H4": {
+              "color": "#000000"
+            }
+          },
+          "_customCSS": ".card-text {\n    text-align: justify;\n}"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extFeatures4_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.6
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures4",
+          "_anchor": "extFeatures4-3a",
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "undefined !important"
+            },
+            ".wraper": {
+              "border-color": "undefined !important"
+            }
+          },
+          "_customCSS": ".card-text {\n    text-align: justify;\n}"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "iconsBgColor": "#e6e6e6",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extFeatures5_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.6
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures5",
+          "_anchor": "extFeatures5-3c",
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "#e6e6e6 !important"
+            },
+            ".wraper": {
+              "border-color": "#e6e6e6 !important"
+            }
+          },
+          "_customCSS": ".card-text {\n    text-align: justify;\n}"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "iconsColorBG": "@primaryColor",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/extFeatures3/images/img_extFeatures6_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.6
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "lab",
+              "family": "linecons",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "medkit",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pulse",
+              "family": "iconsMind",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "virus-1",
+              "family": "icon54",
+              "active": true,
+              "link": "javascript://",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title1": "Exames Laboratoriais",
+          "subtitle1": "Você faz todos em um só lugar",
+          "caption1": "Para tanto, todas as fases de execução dos testes, sobretudo a pré-analítica, devem ser conduzidas seguindo o rigor técnico necessário para garantir a segurança do paciente e resultados exatos.",
+          "title2": "Cirurgia Odontológica",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Essa é a especialidade odontológica responsável pelo tratamento de problemas relacionados aos dentes e ossos da região da face, que vai desde a remoção de dentes inclusos (como o siso).",
+          "title3": "Cirugias",
+          "subtitle3": "Relizamos diversos tipos de cirurgias",
+          "caption3": "Cirurgia, também chamada \"procedimento cirúrgico\" é qualquer tipo de procedimento no qual o cirurgião realiza uma intervenção manual ou instrumental no corpo, seja ela estética ou não.",
+          "title4": "Vacinação",
+          "subtitle4": "Prevenção é melhor que remediação",
+          "caption4": "Temos diversas vacinas para todas as idades. As crianças e os idosos são os que mais precisam estar com a vacinação em dia. Você também deve ficar atendo caso esteja pensando em viajar.",
+          "button1": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\">AGENDAR HORÁRIO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"javascript://\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">AGENDAR HORÁRIO</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "extFeatures6",
+          "_anchor": "extFeatures6-3d",
+          "_styles": {
+            ".card-img": {
+              "background-color": "@primaryColor !important"
+            },
+            "H4": {
+              "text-align": "left"
+            },
+            ".card-subtitle": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_customCSS": ".card-text {\n    text-align: justify;\n}"
         },
         {
           "_params": {
@@ -2412,735 +3845,7 @@
             "Layout"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-2j"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showIcons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/apple-imac-ipad-workplace.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coffee-apple-iphone-desk.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/person-apple-laptop-notebook.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/macbook-apple-imac-computer.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/woman-typing-writing-windows.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/coffee-apple-iphone-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title": "MOBIRISE FEATURES",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "extFeatures7",
-          "_anchor": "extFeatures7-2t"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showIcons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face5.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face1.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face6.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face2.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face3.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face4.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title": "OUR TEAM",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "title1": "William Smith",
-          "subtitle1": "Programmer",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Emma Jones",
-          "subtitle2": "SEO",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Michael Taylor",
-          "subtitle3": "Manager",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Emily Brown",
-          "subtitle4": "Reception",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "James Evans",
-          "subtitle5": "Sales",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Daniel Walker",
-          "subtitle6": "Founder",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "extFeatures9",
-          "_anchor": "extFeatures9-2u"
+          "_anchor": "footer1-10"
         }
       ]
     }
